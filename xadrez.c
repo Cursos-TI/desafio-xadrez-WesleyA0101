@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-//Nivel novato
+//Nivel aventureiro
 
 int main() {
     setlocale(LC_ALL, "portuguese");
@@ -33,6 +33,24 @@ int main() {
 	k++;
     
     }while(k <= 8);
+
+
+    printf("Movimento do cavalo:\n");
+
+    for(int i = 0; i < 2; i++){
+        printf("Baixo\n");
+    
+        if(i == 1){
+	    int l = 0;
+	    while(l < 1){
+	        printf("Esquerda\n");
+		l++;
+	    
+	    
+	    }
+	
+	}
+    }
 
     return 0;
 }
